@@ -6,6 +6,7 @@ public:
             if(hours[i] >= target){ // if employee met the target
                 ans++; // increase the ans by 1
             }
+            
         }
         return ans;
     }
