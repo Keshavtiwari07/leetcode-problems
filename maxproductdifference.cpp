@@ -22,4 +22,5 @@ public:
 
         return firstBig * secondBig - firstSmall * secondSmall;        
     }
+    
 };
