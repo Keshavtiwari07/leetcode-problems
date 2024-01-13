@@ -6,7 +6,7 @@ public:
         
         unordered_map<int,bool> mp;
         
-        // Mark every elem presence in map.
+        // Mark every elem presence in map
         for(int i=0;i<nums.size();i++)
             mp[nums[i]] = true;
         
