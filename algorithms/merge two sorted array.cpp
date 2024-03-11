@@ -6,7 +6,7 @@
  *     ListNode() : val(0), next(nullptr) {}
  *     ListNode(inthhh : val(x), next(nullptr) {}
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
+ * };//a
  */
 class Solution {
 public:
