@@ -6,7 +6,7 @@
  *     ListNode() : val(0), next(nullptr) {}
  *     ListNode(int x) : val(x), next(nullptr) {}
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
+ * };linklist 
  */
 class Solution {
 public:
@@ -37,7 +37,7 @@ public:
             head=list2;
             prev=list2;
             list2=list2->next;
-        }
+        } 
         while(list1 && list2){
             if(list1->val<=list2->val){
                 prev->next=list1;
