@@ -8,6 +8,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };linklist 
  */
+ //good problem
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
