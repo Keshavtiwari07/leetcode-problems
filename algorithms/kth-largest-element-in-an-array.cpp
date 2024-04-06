@@ -1,4 +1,6 @@
-class Solution {
+//kth largest element in array problem
+
+Class Solution {
 public:
     int findKthLargest(std::vector<int>& nums, int k) {
         std::priority_queue<int, std::vector<int>, std::greater<int>> min_heap(nums.begin(), nums.begin() + k);
