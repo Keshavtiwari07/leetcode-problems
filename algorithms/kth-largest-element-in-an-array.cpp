@@ -1,4 +1,4 @@
-//kth largest element in array problem
+//kth largest element in array problem easy problem
 
 Class Solution {
 public:
